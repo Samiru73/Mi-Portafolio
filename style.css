@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+section{
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 2vmin;
+    top: 0%;
+    margin-top: 2vmin;
+    font-weight: 100;
+}
+
+
+.menu li {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    margin-right: 5vmin;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 2.4vmin;
+    color: #ffffff;
+    margin-left: 6vmin;
+}
+
+.banner img{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.perfil{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 18vmin;
+}
+
+.perfil img{
+    width: 27%;
+    margin-bottom: 5px;
+}
+
+.nombre {
+    font-size: 5vmin;
+    font-family: 'Mukta', sans-serif;
+}
+
+.prof{
+    font-size: 4vmin;
+    font-family: 'Mukta', sans-serif;
+}
+
+.descrip{
+    position: relative;
+    margin-top: 35vmin;
+    font-size: 3vmin;
+    font-family:  'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 2vmin;
+}
+
+.descrip p{
+    margin-bottom: 4vmin;
+}
+
+.Projeitos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 7vmin;
+    background: #E7E7E7;
+}
+
+.Projeitos h1{
+    font-size: 5.5vmin;
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 6vmin;
+    margin-top: 3vmin;
+}
+
+.card-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 40vmin;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: #FDFEFE;
+    padding:3.5vmin;
+    height: inherit;
+    border-radius: 10px;
+    margin: 4vmin;
+}
+
+.card:hover{
+    transition: 0.5s;
+    box-shadow:  22px 25px 37px 1px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(320deg,#85929E, #CCD1D1, #FDFEFE);
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+.card:not(:hover){
+    transition: 0.8s;
+    box-shadow:  none;
+    transform: scale(1);
+}
+
+.card img{
+    width: 33vmin;
+    height: 20vmin;
+    border-radius: 5px;
+    height: 20vmin;
+}
+
+.card h4{
+    font-family: 'Mukta', sans-serif;
+    font-size: 3.5vmin;
+    cursor: default;
+    margin-top: 2vmin;
+    margin-bottom: 0.5vmin;
+}
+
+.card p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vmin;
+    margin-bottom: 2.5vmin;
+    cursor: default;
+    margin-bottom: 3.5vmin;
+}
+
+.card div a{
+    margin: 0.9vmin;
+    font-size: 2.5vmin;
+    text-decoration: none;
+    color: black;
+    background: #3498DB;
+    font-family: 'Poppins', sans-serif;
+    padding: 1vmin;
+    border-radius: 7px;
+}
+
+.card div a:hover{
+    background: #0f486e;
+    color: #FDFEFE;
+    transition: 0.5s;
+}
+
+.card div a:not(:hover){
+    transition: 0.5s;
+}
+
+.hab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hab div{
+    width: 70%;
+}
+
+.hab div h1{
+    text-align: center;
+    margin: 4vmin;
+    font-size: 5.5vmin;
+    font-family: 'Mukta', sans-serif;
+}
+
+.hab div p{
+    margin-bottom: 5vmin;
+    font-size: 3vmin;
+    font-family: 'Poppins', sans-serif;
+    border-left: 3vmin solid #133b53;
+    border-bottom: 1vmin solid #133b53;
+    border-top: 1vmin solid #133b53;
+    border-right: 1vmin solid #133b53;
+    padding: 3vmin;
+    border-radius: 2vmin;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #133b53;
+    color: #FDFEFE;
+    padding-bottom: 6vmin;
+}
+
+.info{
+    width: 70%;
+}
+
+.info h1{
+    margin-top: 3vmin;
+    margin-bottom: 3vmin;
+    text-align: center;
+    font-size: 5.5vmin;
+    font-family: 'Mukta', sans-serif;
+}
+
+.info p{
+    font-size: 3vmin;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 7vmin;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:  6vmin;
+}
+
+.redes img{
+    margin: 3vmin;
+    cursor: pointer;
+    border-radius: 1vmin;
+    width: 8vmin;
+}
+
+.redes img:hover{
+    transition: 0.5s;
+    scale: 1.2;
+}
+
+.redes img:not(:hover){
+    transition: 0.5s;
+    scale: 1;
+}
+
+@media (max-width: 930px) {
+    .perfil {
+        height: 20vmin;
+    }
+    .descrip{
+        margin-top: 32vmin;
+    }
+}
+
+::-webkit-scrollbar { 
+    width: 1.3vmin; 
+    background-color: rgba(255, 255, 255, 0); 
+  } 
+   
+::-webkit-scrollbar-thumb { 
+    background-color: #0f486e; 
+    border-radius: 50px; 
+    border: 1px, solid; 
+  }
+
+@media (max-width: 500px) {
+    .perfil {
+        height: 11vmin;
+    }
+    .descrip{
+        margin-top: 20vmin;
+    }
+    .card-group{
+        display: grid;
+        grid-template-columns: 2fr  2fr;
+    }
+}
